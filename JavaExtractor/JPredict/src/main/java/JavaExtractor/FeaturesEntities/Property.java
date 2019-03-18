@@ -66,6 +66,7 @@ public class Property {
 		if (Common.isMethod(node, Type)) {
 			Name = SplitName = Common.methodName;
 		}
+		Name = SplitName;
 
 		if (SplitName.length() == 0) {
 			SplitName = Name;
